@@ -118,7 +118,7 @@ export default ({ children }) => {
         </ul>
         <div className="socials-cont">
           <h2>Find out more</h2>
-          <p>For details about the developer of this theme, please visit</p>
+          <p>For details about the developer of this web, please visit</p>
           <hr />
           <ul className="socials">
             {socials.map((item, index) => {

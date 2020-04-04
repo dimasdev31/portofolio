@@ -12,12 +12,14 @@ export default ({ data }) => {
     <Layout>
       <Seo />
       <h1>
-        Hey! My name is Adimas Sastra Nugraha, I'm a Front-End and Mobile Developer.        
+        Hai! My name is Adimas Sastra Nugraha, I'm a Passionated Mobile Developer 🔥
       </h1>
-      <h4 className={styles.feature}>
+      
+     {/*  <h4 className={styles.feature}>
         {data.allMarkdownRemark.totalCount} Featured Posts
-      </h4>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
+      </h4> */}
+
+      {/* {data.allMarkdownRemark.edges.map(({ node }) => (
         <article className={styles.item}>
           <div className={styles.title}>
             <h2>
@@ -34,7 +36,7 @@ export default ({ data }) => {
             </div>
           </div>
         </article>
-      ))}
+      ))} */}
     </Layout>
   )
 }
