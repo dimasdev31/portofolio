@@ -21,7 +21,7 @@ export default class BlogList extends React.Component {
       <Layout>
         <Seo
           title="All blog posts"
-          description="Recent posts from the Bonneville starter theme"
+          description="Recent posts from the Developers"
         />
         <div className="blog-list">
           <h1>Latest News &amp; Posts</h1>
