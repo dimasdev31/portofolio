@@ -28,7 +28,7 @@ export default ({ children }) => {
     footer {
       padding: 1rem 2rem;
       display: flex;
-      flex-direction: column;
+      flex-direction: column;      
 
       h2 {
         font-size: 1rem;
