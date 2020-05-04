@@ -11,11 +11,32 @@ export default ({ data }) => {
   return (
     <Layout>
       <Seo />
-      <h1>
-        Hai! My name is Adimas Sastra Nugraha, I'm a Passionated Mobile Developer 🔥
-      </h1>
+
+      {/* Hero container */}
+      <div className={styles.sectionHero}>
+        
+        {/* Hero title */}
+        <div className={styles.sectionHero_title}>
+          <p className={styles.titleFirst}>
+            Hai,
+          </p> 
+          <p className={styles.titleSecond}>
+            I'm a Passionated
+          </p>
+          <p className={styles.titleThird}>
+            Mobile & Web Developer
+          </p>
+        </div>
+        {/* Hero images */}
+        <div className={styles.sectionHero_img}>
+          <img src={require('../content/images/undraw_design_notes_8dmv.png')} className={styles.img} />
+        </div>
+
+      </div>
+
       
-     <h4 className={styles.feature}>
+      
+     {/* <h4 className={styles.feature}>
         {data.allMarkdownRemark.totalCount} Featured Posts
       </h4> 
 
@@ -36,7 +57,7 @@ export default ({ data }) => {
             </div>
           </div>
         </article>
-      ))} 
+      ))}  */}
     </Layout>
   )
 }

@@ -8,14 +8,14 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `ADIVMAS`,
-    titleTemplate: `%s | A starter theme for Gatsby`,
-    siteUrl: `https://bonneville.netlify.com`,
+    titleTemplate: `%s | A portofolio site`,
+    siteUrl: `https://adivmas.netlify.com`,
     description: ``,
     author: `Adimas Sastra Nugraha`,
-    twitterUsername: `@bonneville`,
+    twitterUsername: ``,
     twitterURL: `https://twitter.com/`,
     linkedInURL: `https://www.linkedin.com/in/morgan-baker-developer-inverness`,
-    githubURL: `https://github.com/bagseye`,
+    githubURL: `https://github.com/dimasdev31`,
   },
   plugins: [
     `gatsby-plugin-sass`,

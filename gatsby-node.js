@@ -69,6 +69,12 @@ exports.createPages = async ({ actions, graphql }) => {
     })
   })
 
+  // Create portofolio pages
+  createPage({
+    path: `/portofolio`,
+    component: path.resolve("src/templates/portofolio-template.js"),    
+  })
+
   // Create blog list pages
   const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 1
